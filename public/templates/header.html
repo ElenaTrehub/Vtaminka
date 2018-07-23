@@ -1,0 +1,62 @@
+<header class="headerTop ">
+    <div class="wrapper clearfix">
+        <div class="menuThin visible-sm-inline-block visible-xs-inline-block">
+            <a href="#" class="dropdown-toggle smallMenuA">T</a>
+        </div>
+
+        <div class="delimetersmall delimeter visible-sm-inline-block visible-xs-inline-block"></div>
+        <div class="lang">
+            <select
+                    id="langs"
+                    class="cs-select cs-skin-rotate"
+                    ng-model="currentLang"
+                    langs="langs"
+                    langs-option-directive
+            ></select>
+        </div>
+
+        <div class="delimeter"></div>
+        <div class="cart">
+            <a href="cart.html">
+                <span class="cartIcon">n</span>
+                <span class="cartCount" ng-bind="cart.length" ></span>
+            </a>
+        </div>
+        <div class="menu hidden-sm hidden-xs">
+            <nav class="topMenu cl-effect-2">
+                <a href="index.html" translate >LAYOUT_MAIN_LINK</a>
+                <a href="products.html" translate >LAYOUT_PRODUCTS_LINK</a>
+                <a href="blog.html" translate>LAYOUT_BLOG_LINK</a>
+                <a href="about_us.html" translate >LAYOUT_ABOUT_LINK</a>
+                <a href="contacts.html" translate >LAYOUT_CONTACTS_LINK</a>
+            </nav>
+        </div>
+
+    </div>
+</header>
+
+<header class="header ">
+    <div class="wrapper">
+        <div id='menuOpen' class="hidden menuThin visible-sm-inline-block visible-xs-inline-block">
+            <a href="#" class="dropdown-toggle smallMenuA" >T</a>
+        </div>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+        </div>
+        <div class="cart">
+            <a href="cart.html">
+                <span class="cartIcon">n</span>
+                <span class="cartCount" ng-bind="cart.length"></span>
+            </a>
+        </div>
+        <div class="menu hidden-sm hidden-xs">
+            <nav class="mainMenu cl-effect-5">
+                <a href="#" ><span data-hover='Мужские'>Мужские</span></a>
+                <a href="#" ><span data-hover='Женские'>Женские</span></a>
+                <a href="#" ><span data-hover='Детские'>Детские</span></a>
+                <a href="#" ><span data-hover='Спортивные'>Спортивные</span></a>
+            </nav>
+        </div>
+
+    </div>
+</header>

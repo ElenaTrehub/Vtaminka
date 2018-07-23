@@ -11,6 +11,6 @@ module.exports = {
         filename: "index.js",
         path: path.resolve(__dirname , "public/js")
     },
-    watch: true
+    watch: false
 
 };
