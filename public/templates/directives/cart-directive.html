@@ -1,0 +1,24 @@
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 productImg cartCol">
+    <img ng-src="{{product.ProductSmallImage}}">
+</div>
+<div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12 productCartText cartCol">
+
+    <div class="productBlock">
+        <h3 ng-bind="product.ProductTitle">Название продукта</h3>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat.  Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis...  </p>
+    </div>
+
+</div>
+<div ng-bind-template="${{product.ProductPrice}}" class="text-center col-lg-1 col-md-1 col-sm-1 col-xs-12 productCartText cartCol">
+    $99,00
+</div>
+<div class="text-center col-lg-1 col-md-1 col-sm-1 col-xs-12 productCartText cartCol" >
+    <input class="input" type="text" ng-model="count">
+</div>
+<div ng-model="productTotalSum" ng-bind-template="${{productTotalSum}}" class="text-center col-lg-1 col-md-1 col-sm-1 col-xs-12 productCartText cartCol">
+
+
+</div>
+<div class="text-center col-lg-1 col-md-1 col-sm-1 col-xs-12 productCartText cartCol cartDelete">
+    <a href="#">s</a>
+</div>

@@ -1,3 +1,6 @@
+
+
+
 <div class="banner" style="background-image: url(images/banner.png);">
 </div>
 <div class="wrapper clearfix">
@@ -16,20 +19,23 @@
 
         <ul class="effect-2 grid cs-style-2 clearfix" id="grid">
 
-            <li ng-repeat="product in products" class="col-lg-3 col-md-4 col-sm-6 col-xs-12" product-directive product="product" >
-                
+            <li ng-repeat="product in viewProducts" class="col-lg-3 col-md-4 col-sm-6 col-xs-12" product-directive product="product" >
+
             </li>
 
         </ul>
 
-        <div class="more">
-            <button id="js-ripple-btn" class="button styl-material">
+        <div id="MoreVitamins" ng-click="GetMoreVitamins()"   class="more">
+            <button  id="js-ripple-btn" class="button styl-material">
                 Еще
                 <svg class="ripple-obj" id="js-ripple">
                     <use height="100" width="100" xlink:href="#ripply-scott" class="js-ripple"></use>
                 </svg>
             </button>
         </div>
+
+
+
     </div>
 
     <h2>Новости</h2>
@@ -80,3 +86,4 @@
 
     </div>
 </div>
+
