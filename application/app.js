@@ -188,7 +188,7 @@ app.config( [
                         let count  = (function () {
                             let con = 0;
                             for ( let i = 0 ; i < productsList.length ; i++  ) {
-                                con += productsList[i].count;
+                                con += productsList[i].amount;
 
                             }
                             return con;
@@ -201,12 +201,12 @@ app.config( [
                         let total = (function () {
                             let Sum = 0;
                             for ( let i = 0 ; i < productsList.length ; i++  ) {
-                                Sum += productsList[i].count * productsList[i].ProductPrice;
+                                Sum += productsList[i].amount * productsList[i].ProductPrice;
 
                             }
                             return Sum;
                         })();
-                        $scope.totalSum = productsList.length;
+                        $scope.totalSum = total;
 
                     }]
                 }
