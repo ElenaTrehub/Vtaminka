@@ -8,9 +8,11 @@ export default class CartService{
 
         if(localStorageService.get('cart')){
             this.cart = localStorageService.get('cart');
+
         }//if
         else{
             this.cart = [];
+
         }//else
 
         this.localStorageService = localStorageService;
@@ -18,9 +20,15 @@ export default class CartService{
 
     }//constructor
 
+
+
     getCart(){
         return this.cart;
-    }//getCart
+    }//getTotalSum
+
+
+
+
 
     addProduct( product ){
 
@@ -64,9 +72,58 @@ export default class CartService{
             'id' : product.ProductID,
             'amount' : product.amount || 1,
             'name' : product.ProductTitle,
+            'price': product.ProductPrice,
         };
 
     }//_getSimpleProduct
+
+    _changeProduct(product){
+
+        for ( let i = 0 ; i < this.cart.length ;  i++ ){
+
+            if(this.cart[i].id === product.ProductID){
+
+                this.cart[i].amount = product.amount;
+
+                break;
+
+            }//if
+
+        }//for i
+        this.localStorageService.set('cart', this.cart);
+
+    }//  changeProduct
+
+    _getTotalSumm(){
+        let Sum = 0;
+
+        for ( let i = 0 ; i < this.cart.length ; i++  ){
+
+            Sum += +this.cart[i].amount * +this.cart[i].price;
+
+        }//for i
+
+        return Sum;
+
+
+    }//getTotalSum
+
+    _getCountCartVitamin(){
+
+        let con = 0;
+        for ( let i = 0 ; i < this.cart.length ; i++  ) {
+             con += +this.cart[i].amount;
+
+        }
+        return con;
+
+        }//getCountCartVitamin
+
+
+
+
+
+
 
     clearCart(){
 
@@ -79,7 +136,15 @@ export default class CartService{
         this._removeCallback = callback;
     }
 
-    removeProduct( index ){
+    removeProduct( id ){
+
+        let index = -1;
+        for ( let i = 0 ; i < this.cart.length ; i++  ) {
+            if(this.cart[i].id === id) {
+                index=i;
+            }
+        }
+
 
         this.cart.splice( index , 1 );
 
@@ -112,7 +177,7 @@ export default class CartService{
         }//for i
 
         return productsCart;
-
+        console.log(productsCart);
     }//getFullProducts
 
 

@@ -21,6 +21,7 @@ export default  function ProductDirective( ){
 
                 product.isInCart = true;
                 CartService.addProduct( product );
+
                 console.log( CartService.getCart() )
             }
 

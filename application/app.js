@@ -182,31 +182,14 @@ app.config( [
                 },
                 "content": {
                     'templateUrl': "templates/cart/cart.html",
-                    controller: ['$scope' ,  'productsList' , function ($scope , productsList){
+                    controller: ['$scope' ,  'productsList' , 'CartService',  function ($scope , productsList,CartService){
 
-                        $scope.productsCart = productsList;
-                        let count  = (function () {
-                            let con = 0;
-                            for ( let i = 0 ; i < productsList.length ; i++  ) {
-                                con += productsList[i].amount;
+                        $scope.products = productsList;
 
-                            }
-                            return con;
-                        })();
-                        $scope.totalCount = count;
+                        document.querySelector('#totalCountVitamin').innerHTML = CartService._getCountCartVitamin();
 
+                        document.querySelector('#totalSumVitamin').innerHTML = CartService._getTotalSumm();
 
-
-
-                        let total = (function () {
-                            let Sum = 0;
-                            for ( let i = 0 ; i < productsList.length ; i++  ) {
-                                Sum += productsList[i].amount * productsList[i].ProductPrice;
-
-                            }
-                            return Sum;
-                        })();
-                        $scope.totalSum = total;
 
                     }]
                 }

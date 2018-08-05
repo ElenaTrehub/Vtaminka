@@ -13,12 +13,12 @@
     $99,00
 </div>
 <div class="text-center col-lg-1 col-md-1 col-sm-1 col-xs-12 productCartText cartCol" >
-    <input class="input" type="text" ng-model="count">
+    <input  class="input" type="text" ng-model="count" ng-change="ChangeCount()">
 </div>
 <div ng-model="productTotalSum" ng-bind-template="${{productTotalSum}}" class="text-center col-lg-1 col-md-1 col-sm-1 col-xs-12 productCartText cartCol">
 
 
 </div>
-<div class="text-center col-lg-1 col-md-1 col-sm-1 col-xs-12 productCartText cartCol cartDelete">
+<div ng-click="RemoveVitamin()"  class="text-center col-lg-1 col-md-1 col-sm-1 col-xs-12 productCartText cartCol cartDelete">
     <a href="#">s</a>
 </div>
