@@ -1,0 +1,81 @@
+<div ng-repeat="product in products "  class="clearfix productCartRow">
+
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 productImg cartCol">
+        <img ng-src="{{product.ProductSmallImage}}">
+    </div>
+    <div class=" col-lg-6 col-md-4 col-sm-4 col-xs-4 productCartText cartCol">
+
+        <div class="productBlock">
+            <h3 ng-bind="product.ProductTitle">Название продукта </h3>
+        </div>
+
+    </div>
+    <div ng-bind="product.amount" class="text-center col-lg-2 col-md-3 col-sm-3 col-xs-4 productCartText cartCol">
+        2
+    </div>
+    <div ng-bind-template="${{product.amount * product.ProductPrice}}" class="text-center col-lg-2 col-md-3 col-sm-3 col-xs-4 productCartText cartCol">
+        $198,00
+    </div>
+
+</div>
+
+
+
+<div class="clearfix coupon productCartRow">
+    <div class="clearfix buttonBlock">
+        <input id="PromoCode"  class="input" type="text" value="" placeholder="Введите промокод">
+        <button id="js-ripple-btn" ng-click="PromoApplay()" class="button styl-material">
+            ОК
+            <svg class="ripple-obj" id="js-ripple">
+                <use height="100" width="100" xlink:href="#ripply-scott" class="js-ripple"></use>
+            </svg>
+        </button>
+    </div>
+</div>
+
+<div class="text-left clearfix cartAllCount productCartRow">
+
+    <div class="empty col-lg-2 col-md-2 col-sm-2 col-xs-12 productImg cartCol">
+
+    </div>
+    <div class="text-left col-lg-6 col-md-4 col-sm-4 col-xs-4 productCartText cartCol">
+
+        <div class="productBlock">
+            <h3>Доставка</h3>
+        </div>
+
+    </div>
+
+    <div class="text-center  col-lg-2 col-md-3 col-sm-3 col-xs-4 productCartText cartCol">
+
+    </div>
+    <div class="text-center col-lg-2 col-md-3 col-sm-3 col-xs-4 productCartText cartCol">
+        $<span style="font-size: 18px; font-weight: normal"
+               id="Delivery"></span>
+    </div>
+
+
+</div>
+
+<div class="clearfix cartAllCount productCartRow">
+
+    <div class="empty col-lg-2 col-md-2 col-sm-2 col-xs-12 productImg cartCol">
+
+    </div>
+    <div class=" col-lg-6 col-md-4 col-sm-4 col-xs-4 productCartText cartCol">
+
+        <div class="productBlock">
+            <h3>Итого</h3>
+        </div>
+
+    </div>
+
+    <div class="text-center col-lg-2 col-md-3 col-sm-3 col-xs-4 productCartText cartCol">
+        <span style="font-size: 18px; font-weight: normal" id="totalCountVitamin" ></span>
+    </div>
+    <div class="text-center col-lg-2 col-md-3 col-sm-3 col-xs-4 productCartText cartCol">
+        $<span style="font-size: 18px; font-weight: normal" id="totalSumVitamin"></span>
+    </div>
+
+
+</div>

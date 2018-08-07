@@ -1,6 +1,14 @@
 [
   {
-    "code": "AXPE",
-    "discount": "10"
+    "code": "FGTR",
+    "discount": "5"
+  },
+  {
+  "code": "AXPE",
+  "discount": "10"
+  },
+  {
+    "code": "BDFR",
+    "discount": "15"
   }
 ]

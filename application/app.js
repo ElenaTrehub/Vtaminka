@@ -9,6 +9,7 @@ import CartController from './controllers/CartController';
 import LocaleService from './services/LocaleService';
 import ProductService from './services/ProductService';
 import CartService from './services/CartService';
+import PromoService from './services/PromoService';
 
 //====================FILTERS==============================//
 
@@ -16,6 +17,8 @@ import CartService from './services/CartService';
 import LangsOptionDirective from './directives/LangsOptionDirective';
 import ProductDirective from './directives/ProductDirective';
 import CartDirective from './directives/CartDirective';
+import CheckoutDirective from './directives/CheckoutDirective';
+import FormDirective from './directives/FormDirective';
 
 angular.module('VtaminkaApplication.controllers' , []);
 angular.module('VtaminkaApplication.services' , []);
@@ -42,6 +45,9 @@ angular.module('VtaminkaApplication.constants')
     .constant('GET_PRODUCTS' , 'products/products-list.json');
 
 angular.module('VtaminkaApplication.constants')
+    .constant('GET_PROMO' , 'products/promo.json');
+
+angular.module('VtaminkaApplication.constants')
     .constant('GET_TRANSLATIONS' , 'i18n/{{LANG}}.json');
 
 //====================SERVICES DECLARATIONS===================//
@@ -54,6 +60,8 @@ angular.module('VtaminkaApplication.services')
 angular.module('VtaminkaApplication.services')
     .service('CartService' , ['localStorageService', 'ProductService', CartService ]);
 
+angular.module('VtaminkaApplication.services')
+    .service('PromoService' , [ '$http', 'HOST' , 'GET_PROMO' , PromoService ]);
 //====================DIRECTIVES DECLARATIONS===================//
 angular.module('VtaminkaApplication.directives')
     .directive('langsOptionDirective' , [ LangsOptionDirective ]);
@@ -62,6 +70,11 @@ angular.module('VtaminkaApplication.directives')
     .directive('productDirective' , [ ProductDirective ]);
 angular.module('VtaminkaApplication.directives')
     .directive('cartDirective' , [ CartDirective ]);
+angular.module('VtaminkaApplication.directives')
+    .directive('checkoutDirective' , [ CheckoutDirective ]);
+
+angular.module('VtaminkaApplication.directives')
+    .directive('formDirective' , [ FormDirective ]);
 
 let app = angular.module('VtaminkaApplication',[
     'angular-loading-bar',
@@ -203,6 +216,43 @@ app.config( [
                 'langs': [ 'LocaleService' , function ( LocaleService ){
                     return LocaleService.getLangs();
                 }  ]
+
+            }
+        });
+
+        $stateProvider.state('checkout' , {
+            'url': '/checkout',
+            'views':{
+                "header":{
+                    "templateUrl": "templates/header.html",
+                    controller: [ '$scope' , 'CartService' , 'langs' , function ($scope, CartService , langs ){
+                        $scope.langs = langs;
+                        $scope.cart = CartService.getCart();
+
+                    } ]
+                },
+                "content": {
+                    'templateUrl': "templates/checkout/checkout.html",
+                    controller: ['$scope' ,  'productsList' ,'promoList',  function ($scope , productsList,promoList){
+
+                        $scope.products = productsList;
+                        $scope.promos = promoList;
+
+                    }]
+                }
+
+            },
+            'resolve': {
+
+                'productsList': [ 'CartService', function (CartService){
+                    return CartService.getFullProducts();
+                } ],
+                'langs': [ 'LocaleService' , function ( LocaleService ){
+                    return LocaleService.getLangs();
+                }  ],
+                'promoList': [ 'PromoService', function (PromoService){
+                    return PromoService.getPromo();
+                } ]
 
             }
         });
