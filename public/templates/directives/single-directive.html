@@ -1,0 +1,52 @@
+
+<div class="tabsContent">
+    <ul class="nav nav-tabs" id="myTabs" role="tablist">
+        <li ng-click="DescriptionButton()" role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Описание</a></li>
+        <li ng-click="CompositionButton()" role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Состав</a></li>
+        <li ng-click="InfoButton()" role="presentation"><a href="#info" aria-controls="info" role="tab" data-toggle="tab">Информация о продукте</a></li>
+        <li ng-click="DescriptionButton()" ole="presentation" class=""><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Описание</a></li>
+        <li ng-click="CompositionButton()" role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Состав</a></li>
+        <li ng-click="InfoButton()" role="presentation"><a href="#info" aria-controls="info" role="tab" data-toggle="tab">Информация о продукте</a></li>
+        <li ng-click="DescriptionButton()" role="presentation" class=""><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Описание</a></li>
+        <li ng-click="CompositionButton()" role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Состав</a></li>
+        <li ng-click="InfoButton()" role="presentation"><a href="#info" aria-controls="info" role="tab" data-toggle="tab">Информация о продукте</a></li>
+
+    </ul>
+</div>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active productBlock" id="home">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat.  Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis.  Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. </p>
+        <p> Aenean nec ultricies enim.  Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis.  Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.</p>
+
+    </div>
+
+</div>
+
+<script> (function($){
+    $(document).ready(function(){
+
+        /*
+        get snap amount programmatically or just set it directly (e.g. "273")
+        in this example, the snap amount is list item's (li) outer-width (width+margins)
+        */
+        var amount=Math.max.apply(Math,$(".tabsContent li").map(function(){return $(this).outerWidth(true);}).get());
+
+        $(".tabsContent").mCustomScrollbar({
+            axis:"x",
+            theme:"inset",
+            advanced:{
+                autoExpandHorizontalScroll:true
+            },
+            scrollButtons:{
+                enable:true,
+                scrollType:"stepped"
+            },
+            keyboard:{scrollType:"stepped"},
+            snapAmount:amount,
+            mouseWheel:{scrollAmount:amount}
+        });
+
+    });
+})(jQuery);
+</script>

@@ -177,7 +177,7 @@ export default class CartService{
         }//for i
 
         return productsCart;
-        console.log(productsCart);
+
     }//getFullProducts
 
 

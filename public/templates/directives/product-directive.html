@@ -3,7 +3,7 @@
 <figure>
     <div class="figurWrap">
         <h3>
-            <a href="product.html">
+            <a ui-sref="singleVitamin({ 'ProductID': product.ProductID})">
                 {{product.ProductTitle }} &mdash;
                 <span class="price" ng-bind-template="${{product.ProductPrice}}" ></span>
             </a>

@@ -1,0 +1,63 @@
+
+
+<div class="bannerSlim" style="background-image: url('images/banner.png');
+        background-position-y: 55%;">
+    <div class="bannerWrap"></div>
+    <h2 ng-bind="product.ProductTitle">Название продукта</h2>
+</div>
+<div class="wrapper clearfix">
+    <!-- SVG Sprite -->
+    <div style="height: 0; width: 0; position: absolute; visibility: hidden;" aria-hidden="true">
+        <svg version="1.1" xmlns="http://www.w2.org/2000/svg" xmlns:xlink="http://www.w2.org/1999/xlink" focusable="false">
+            <symbol id="ripply-scott" viewBox="0 0 100 100">
+                <circle id="ripple-shape" cx="1" cy="1" r="1" />
+            </symbol>
+        </svg>
+    </div>
+
+    <div class="clearfix product">
+
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 productImg">
+            <img src="images/vitamin1.png" alt="">
+        </div>
+        <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12 productText">
+
+            <div class="productBlock">
+                <h3 ng-bind-template="${{product.ProductPrice}}" class="productPrice">$99,00</h3>
+                <div class="productToCart">
+                    <div ng-show="!product.isInCart" class="clearfix buttonBlock">
+                        <input id="countVitamin" class="input" type="text" value="1">
+                        <button ng-click="AddProduct()" id="js-ripple-btn" class="button styl-material">
+                            В корзину
+                            <svg class="ripple-obj" id="js-ripple">
+                                <use height="100" width="100" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ripply-scott" class="js-ripple"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div ng-show="product.isInCart" class="clearfix buttonBlock">
+                        <div class="inCart">Уже в корзине</div>
+                    </div>
+
+                </div>
+                <h3>Описание</h3>
+                <p ng-bind="product.ProductDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat.  Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis.  Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. </p>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="clearfix product">
+        <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 productText">
+
+            <div single-directive product="product">
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+</div>

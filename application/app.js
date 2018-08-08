@@ -19,6 +19,7 @@ import ProductDirective from './directives/ProductDirective';
 import CartDirective from './directives/CartDirective';
 import CheckoutDirective from './directives/CheckoutDirective';
 import FormDirective from './directives/FormDirective';
+import SingleDirective from './directives/SingleDirective';
 
 angular.module('VtaminkaApplication.controllers' , []);
 angular.module('VtaminkaApplication.services' , []);
@@ -75,6 +76,11 @@ angular.module('VtaminkaApplication.directives')
 
 angular.module('VtaminkaApplication.directives')
     .directive('formDirective' , [ FormDirective ]);
+
+angular.module('VtaminkaApplication.directives')
+    .directive('singleDirective' , [ SingleDirective ]);
+
+
 
 let app = angular.module('VtaminkaApplication',[
     'angular-loading-bar',
@@ -256,6 +262,69 @@ app.config( [
 
             }
         });
+
+
+        $stateProvider.state('singleVitamin' , {
+            'url': '/singleVitamin:ProductID',
+            'views':{
+                "header":{
+                    "templateUrl": "templates/header.html",
+                    controller: [ '$scope' , 'CartService' , 'langs' , function ($scope, CartService , langs ){
+                        $scope.langs = langs;
+                        $scope.cart = CartService.getCart();
+
+                    } ]
+                },
+                "content": {
+                    'templateUrl': "templates/singleVitamin/singleVitamin.html",
+                    controller: ['$scope' ,  'product', 'CartService' , function ($scope , product, CartService){
+
+                        let cart = CartService.getCart();
+
+                        $scope.product = (function(){
+
+                            for ( let i = 0 ; i < cart.length ; i++  ){
+
+                                if(cart[i].id===product.ProductID){
+                                    product.isInCart = true;
+                                    return product;
+                                }//if
+
+                            }//for i
+                            return product;
+                        })();
+
+                        $scope.AddProduct = function (){
+
+                            $scope.product.isInCart = true;
+
+                            let count = document.querySelector('#countVitamin').value;
+                            $scope.product.amount = count;
+                            CartService.addProduct($scope.product);
+
+
+                        };
+
+                    }]
+                }
+
+            },
+            'resolve': {
+
+                'product': [ 'ProductService', '$stateParams', function (ProductService,$stateParams){
+                    return ProductService.getSingleProduct($stateParams.ProductID);
+                } ],
+                'langs': [ 'LocaleService' , function ( LocaleService ){
+                    return LocaleService.getLangs();
+                }  ]
+
+            }
+        });
+
+
+
+
+
     } ] );
 
 app.run(

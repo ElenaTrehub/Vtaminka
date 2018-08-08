@@ -4,168 +4,240 @@
     "ProductTitle": "Витамин 1",
     "ProductPrice": "25",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "2",
     "ProductTitle": "Витамин 2",
     "ProductPrice": "35",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "3",
     "ProductTitle": "Витамин 3",
     "ProductPrice": "15.25",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis.",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "4",
     "ProductTitle": "Витамин 4",
     "ProductPrice": "35",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "5",
     "ProductTitle": "Витамин 5",
     "ProductPrice": "35",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "6",
     "ProductTitle": "Витамин 6",
     "ProductPrice": "15.25",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "7",
     "ProductTitle": "Витамин 7",
     "ProductPrice": "25",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "8",
     "ProductTitle": "Витамин 8",
     "ProductPrice": "35",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "9",
     "ProductTitle": "Витамин 9",
     "ProductPrice": "15.25",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "10",
     "ProductTitle": "Витамин 10",
     "ProductPrice": "25",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "11",
     "ProductTitle": "Витамин 11",
     "ProductPrice": "35",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "12",
     "ProductTitle": "Витамин 12",
     "ProductPrice": "15.25",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "13",
     "ProductTitle": "Витамин 13",
     "ProductPrice": "25",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "14",
     "ProductTitle": "Витамин 14",
     "ProductPrice": "35",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis.",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "15",
     "ProductTitle": "Витамин 15",
     "ProductPrice": "15.25",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis.",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "16",
     "ProductTitle": "Витамин 16",
     "ProductPrice": "15.25",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "17",
     "ProductTitle": "Витамин 17",
     "ProductPrice": "25",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis.",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "18",
     "ProductTitle": "Витамин 18",
     "ProductPrice": "35",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "19",
     "ProductTitle": "Витамин 19",
     "ProductPrice": "15.25",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "20",
     "ProductTitle": "Витамин 20",
     "ProductPrice": "15.25",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "21",
     "ProductTitle": "Витамин 21",
     "ProductPrice": "25",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "22",
     "ProductTitle": "Витамин 22",
     "ProductPrice": "35",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "23",
     "ProductTitle": "Витамин 23",
     "ProductPrice": "15.25",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   },
   {
     "ProductID": "24",
     "ProductTitle": "Витамин 24",
     "ProductPrice": "15.25",
     "ProductImage": "images/vitamin1.jpg",
-    "ProductSmallImage":"images/vitamin1.png"
+    "ProductSmallImage":"images/vitamin1.png",
+    "ProductDescription":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. Duis vitae mauris erat.",
+    "ProductComposition":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat. Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. ",
+    "ProductInfo":"Дозировка на год: 1000г<br>  Дозировка на 6 месяцев: 500г<br> Противопоказания: нет<br>  Дополнительные факты: нет <br>    Количество в упаковке: 100<br>"
   }
 
 ]

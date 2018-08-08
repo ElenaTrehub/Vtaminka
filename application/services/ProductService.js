@@ -27,6 +27,23 @@ export default class ProductService{
 
     }
 
+    async getSingleProduct(productID){
 
+        let response = await this._$http.get( `${this._HOST}${this._GET_PRODUCTS}` );
+
+        let products = response.data;
+
+
+        for ( let i = 0 ; i < products.length ; i++  ) {
+
+            if(products[i].ProductID === productID){
+                products[i].amount = 1;
+                return products[i];
+            }//if
+
+        }//for
+
+
+    }//getSingleProduct
 
 }
