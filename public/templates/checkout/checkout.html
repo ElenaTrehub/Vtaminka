@@ -1,7 +1,7 @@
 
     <div class="bannerSlim" style="background-image: url('images/banner.png'); background-position-y: 55%;">
         <div class="bannerWrap"></div>
-        <h2>Оформить заказ</h2>
+        <h2 translate>LAYOUT_CHECKOUT_LINK</h2>
     </div>
     <div class="wrapper clearfix">
         <!-- SVG Sprite -->
@@ -16,29 +16,29 @@
         <div class="clearfix">
 
             <div class="checkoutOrder col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                <h2>Персональные данные:</h2>
+                <h2 translate>LAYOUT_PERSONAL_INFORMATION_LINK</h2>
                 <div class="clearfix" form-directive name="name" email="email" phone="phone">
 
                 </div>
 
-                <h2>Оплата:</h2>
+                <h2 translate>LAYOUT_PAYMENT_LINK</h2>
                 <div class="clearfix">
                     <div class="inputWrap col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <label>
 
-                            <input class=""  placeholder="Номер карты">
+                            <input class=""  placeholder="Card number">
                         </label>
                     </div>
                     <div class="telInp inputWrap col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <select class="cs-select cs-skin-border">
-                            <option value="" disabled selected>Выберите год</option>
+                            <option value="" disabled selected>Select Year</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                         </select>
                     </div>
                     <div class=" inputWrap col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <select class="cs-select cs-skin-border">
-                            <option value="" disabled selected>Выберите год</option>
+                            <option value="" disabled selected>Select Year</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                         </select>
@@ -52,15 +52,15 @@
                     <div class=" inputWrap col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <label>
 
-                            <input class=""  placeholder="Имя карты">
+                            <input class=""  placeholder="Cart name">
                         </label>
                     </div>
 
                 </div>
 
                 <div class="areaWrap col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <button id="js-ripple-btn" class="button styl-material">
-                        Подтвердить заказ
+                    <button id="js-ripple-btn" class="button styl-material" translate>
+                        LAYOUT_VALIDE_PURCHASE_LINK
                         <svg class="ripple-obj" id="js-ripple">
                             <use height="100" width="100" xlink:href="#ripply-scott" class="js-ripple"></use>
                         </svg>
@@ -69,7 +69,7 @@
 
             </div>
             <div class="checkout col-lg-6 col-md-6 col-sm-12 col-xs-12 " checkout-directive products="products" promos="promos">
-                <h2>Содержание заказа:</h2>
+                <h2 translate>LAYOUT_ORDER_CONTENTS_LINK</h2>
 
             </div>
             <div class="checkoutOrder col-lg-6 col-md-6 col-sm-12 col-xs-12 ">

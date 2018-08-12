@@ -12,7 +12,7 @@ import CartService from './services/CartService';
 import PromoService from './services/PromoService';
 
 //====================FILTERS==============================//
-
+import DescriptionFilter from './filters/DescriptionFilter';
 //====================DIRECTIVES==============================//
 import LangsOptionDirective from './directives/LangsOptionDirective';
 import ProductDirective from './directives/ProductDirective';
@@ -80,7 +80,9 @@ angular.module('VtaminkaApplication.directives')
 angular.module('VtaminkaApplication.directives')
     .directive('singleDirective' , [ SingleDirective ]);
 
-
+//====================FILTERS DECLARATIONS===================//
+angular.module('VtaminkaApplication.filters')
+    .filter('DescriptionFilter' ,  DescriptionFilter);
 
 let app = angular.module('VtaminkaApplication',[
     'angular-loading-bar',
@@ -171,10 +173,10 @@ app.config( [
                         }
 
                     } ]
+                },
+                "footer": {
+                    'templateUrl': "templates/footer.html",
                 }
-                //"footer": {
-                    //'templateUrl': "templates/footer.html",
-                //}
             },
             'resolve': {
 
@@ -211,9 +213,14 @@ app.config( [
 
 
                     }]
-                }
+                },
 
+                "footer": {
+                    'templateUrl': "templates/footer.html",
+                }
             },
+
+
             'resolve': {
 
                 'productsList': [ 'CartService', function (CartService){
@@ -245,9 +252,13 @@ app.config( [
                         $scope.promos = promoList;
 
                     }]
+                },
+                "footer": {
+                    'templateUrl': "templates/footer.html",
                 }
-
             },
+
+
             'resolve': {
 
                 'productsList': [ 'CartService', function (CartService){
@@ -306,9 +317,13 @@ app.config( [
                         };
 
                     }]
+                },
+                "footer": {
+                    'templateUrl': "templates/footer.html",
                 }
-
             },
+
+
             'resolve': {
 
                 'product': [ 'ProductService', '$stateParams', function (ProductService,$stateParams){

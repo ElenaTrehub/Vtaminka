@@ -27,20 +27,20 @@
                 <div class="productToCart">
                     <div ng-show="!product.isInCart" class="clearfix buttonBlock">
                         <input id="countVitamin" class="input" type="text" value="1">
-                        <button ng-click="AddProduct()" id="js-ripple-btn" class="button styl-material">
-                            В корзину
+                        <button ng-click="AddProduct()" id="js-ripple-btn" class="button styl-material" translate>
+                            LAYOUT_ADD_TO_CART_LINK
                             <svg class="ripple-obj" id="js-ripple">
                                 <use height="100" width="100" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ripply-scott" class="js-ripple"></use>
                             </svg>
                         </button>
                     </div>
-                    <div ng-show="product.isInCart" class="clearfix buttonBlock">
-                        <div class="inCart">Уже в корзине</div>
+                    <div ng-show="product.isInCart" class="clearfix buttonBlock" >
+                        <div class="inCart" translate>LAYOUT_ALREADY_IN_CART_LINK</div>
                     </div>
 
                 </div>
-                <h3>Описание</h3>
-                <p ng-bind="product.ProductDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat.  Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis.  Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis. </p>
+                <h3 translate>LAYOUT_DESCRIPTION_LINK</h3>
+                <p ng-bind="product.ProductDescription"></p>
 
 
             </div>

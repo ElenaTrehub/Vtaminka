@@ -12,12 +12,64 @@ export default function LangsOptionDirective( ){
         },
         controller: [ '$scope' , function ( $scope ){
 
-            $scope.currentLang = $scope.langs[0];
+            let cl = $scope.$parent._getLang();
+
+
+
+
+            let elementMen =  document.querySelector('#men');
+            let elementWomen =  document.querySelector('#women');
+            let elementChildren =  document.querySelector('#children');
+            let elementSport =  document.querySelector('#sport');
+
+            if(cl==="EN"){
+
+                $scope.currentLang = $scope.langs[1];
+
+                elementMen.setAttribute('data', "MENS");
+                elementWomen.setAttribute('data', "WOMEN");
+                elementChildren.setAttribute('data', "CHILDREN");
+                elementSport.setAttribute('data', "SPORTS");
+                $scope.$parent.updateTranslations( cl );
+
+            }//if
+
+            if(cl==="RU" || cl==="") {
+
+                $scope.currentLang = $scope.langs[0];
+
+                elementMen.setAttribute('data', "МУЖСКИЕ");
+                elementWomen.setAttribute('data', "ЖЕНСКИЕ");
+                elementChildren.setAttribute('data', "ДЕТСКИЕ");
+                elementSport.setAttribute('data', "СПОРТИВНЫЕ");
+                $scope.$parent.updateTranslations( "RU" );
+
+
+
+            }//if
+
+
             $scope.changeLanguage = function ( newLanguage ){
 
-                console.log(newLanguage);
-                $scope.$parent.updateTranslations( newLanguage );
+                if(newLanguage==="EN"){
 
+                    elementMen.setAttribute('data', "MENS");
+                    elementWomen.setAttribute('data', "WOMEN");
+                    elementChildren.setAttribute('data', "CHILDREN");
+                    elementSport.setAttribute('data', "SPORTS");
+
+
+
+                }//if
+                else{
+                    elementMen.setAttribute('data', "МУЖСКИЕ");
+                    elementWomen.setAttribute('data', "ЖЕНСКИЕ");
+                    elementChildren.setAttribute('data', "ДЕТСКИЕ");
+                    elementSport.setAttribute('data', "СПОРТИВНЫЕ");
+
+
+                }
+                $scope.$parent.updateTranslations( newLanguage );
             };
 
         } ],

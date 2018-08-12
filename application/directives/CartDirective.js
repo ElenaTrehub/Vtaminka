@@ -31,9 +31,7 @@ export default  function CartDirective( ){
 
             $scope.RemoveVitamin = function (){
 
-                CartService.removeProduct($scope.product.ProductID);
-                document.querySelector('#totalCountVitamin').innerHTML = CartService._getCountCartVitamin();
-                document.querySelector('#totalSumVitamin').innerHTML = CartService._getTotalSumm();
+
 
                 let index = -1;
                 for ( let i = 0 ; i < $scope.products.length ; i++  ) {
@@ -41,10 +39,17 @@ export default  function CartDirective( ){
                         index=i;
                     }
                 }
-                console.log(index);
+
+
+
+                CartService.removeProduct($scope.product.ProductID);
+                document.querySelector('#totalCountVitamin').innerHTML = CartService._getCountCartVitamin();
+                document.querySelector('#totalSumVitamin').innerHTML = CartService._getTotalSumm();
+                $scope.count = $scope.products[index+1].amount;
+                $scope.productTotalSum = $scope.products[index+1].amount * $scope.products[index+1].ProductPrice;
                 $scope.products.splice(index,1);
-                console.log($scope.products);
-            };
+
+                            };
 
         } ],
         link: function ( $scope , element ){

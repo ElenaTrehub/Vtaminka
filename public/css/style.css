@@ -488,34 +488,34 @@ footer p{
 }
 
 .cl-effect-5 a span {
-	position: relative;
-	color: #fff;
-	display: inline-block;
-	cursor: pointer;
-	-webkit-transition: -webkit-transform 0.3s;
-	-moz-transition: -moz-transform 0.3s;
-	transition: transform 0.3s;
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
 }
 
 .cl-effect-5 a span::before {
-	position: absolute;
-	top: 100%;
-	content: attr(data-hover);
-	font-weight: 100;
-	color: #F7CF00;
-	letter-spacing: -0.8px;
-	font-family: 'ralewaysemibold';
-	font-family: 'noto_sansbold';
-	-webkit-transform: translate3d(0,0,0);
-	-moz-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
+    position: absolute;
+    top: 100%;
+    content: attr(data);
+    font-weight: 100;
+    color: #F7CF00;
+    letter-spacing: -0.8px;
+    font-family: 'ralewaysemibold';
+    font-family: 'noto_sansbold';
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 
 .cl-effect-5 a:hover span,
 .cl-effect-5 a:focus span {
-	-webkit-transform: translateY(-100%);
-	-moz-transform: translateY(-100%);
-	transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    transform: translateY(-100%);
 }
 
 .productImg img{

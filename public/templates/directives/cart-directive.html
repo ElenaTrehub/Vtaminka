@@ -6,7 +6,7 @@
 
     <div class="productBlock">
         <a  ui-sref="singleVitamin({ 'ProductID': product.ProductID})"><h3  ng-bind="product.ProductTitle">Название продукта</h3></a>
-        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat.  Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis...  </p>
+        <p ng-bind="product.ProductDescription | DescriptionFilter:100" class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis erat sit amet enim auctor feugiat.  Aenean nec ultricies enim. Vestibulum ut viverra orci. Maecenas suscipit odio quis felis varius mollis...  </p>
     </div>
 
 </div>

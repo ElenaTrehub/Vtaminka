@@ -12,16 +12,22 @@ export default  function SingleDirective( ){
         templateUrl: 'templates/directives/single-directive.html',
         controller: [ '$scope', function ( $scope ){
 
-            $scope.DescriptionButton = function(){
-                document.querySelector('#home').innerHTML = $scope.product.ProductDescription;
-             };
 
-            $scope.CompositionButton = function(){
-                document.querySelector('#home').innerHTML = $scope.product.ProductComposition;
-            };
-            $scope.InfoButton = function(){
-                document.querySelector('#home').innerHTML = $scope.product.ProductInfo;
-            };
+
+                $scope.DescriptionButton = function(){
+                    document.querySelector('#home').innerHTML = $scope.product.ProductDescription;
+                };
+
+                $scope.CompositionButton = function(){
+                    document.querySelector('#home').innerHTML = $scope.product.ProductComposition;
+                };
+                $scope.InfoButton = function(){
+                    document.querySelector('#home').innerHTML = $scope.product.ProductInfo;
+                };
+
+
+
+
         }],
         link:function() {
 

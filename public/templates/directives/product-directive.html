@@ -3,7 +3,7 @@
 <figure>
     <div class="figurWrap">
         <h3>
-            <a ui-sref="singleVitamin({ 'ProductID': product.ProductID})">
+            <a ui-sref="singleVitamin({'ProductID': product.ProductID})">
                 {{product.ProductTitle }} &mdash;
                 <span class="price" ng-bind-template="${{product.ProductPrice}}" ></span>
             </a>
@@ -19,15 +19,15 @@
                 <option value="2">2</option>
             </select>
 
-            <button ng-click="AddProduct(product)" id="js-ripple-btn" class="button styl-material">
-                В корзину
+            <button ng-click="AddProduct(product)" id="js-ripple-btn" class="button styl-material" translate="">
+                LAYOUT_ADD_TO_CART_LINK
                 <svg class="ripple-obj" id="js-ripple">
                     <use height="100" width="100" xlink:href="#ripply-scott" class="js-ripple"></use>
                 </svg>
             </button>
         </div>
         <div ng-show="product.isInCart" class="clearfix buttonBlock">
-            <div class="inCart">Уже в корзине</div>
+            <div class="inCart" translate="">LAYOUT_ALREADY_IN_CART_LINK</div>
         </div>
     </figcaption>
 
